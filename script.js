@@ -423,3 +423,18 @@ document.getElementById('clearBtn').addEventListener('click', function(){
     const callHistory = document.getElementById('call-history-container')
     callHistory.innerText = ""
 })
+document.getElementById('copy-btn-1').addEventListener('click', function(){
+    const copyText = document.getElementById('copyText-1').innerText
+    navigator.clipboard.writeText(copyText)
+    const copyBtn = document.getElementById('copy-btn-01')
+    const defaultText = copyBtn.innerText
+    copyBtn.innerText = "Copied"
+    setTimeout(function(){
+        copyBtn.innerText = defaultText
+    }, 1000)
+    const btnValue = 1;
+    const copyCount = parseInt(document.getElementById('copy-count').innerText)
+    console.log(copyCount)
+    const copyCountValue = btnValue + copyCount;
+    document.getElementById('copy-count').innerText = copyCountValue;
+})
