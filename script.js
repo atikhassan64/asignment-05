@@ -438,3 +438,125 @@ document.getElementById('copy-btn-1').addEventListener('click', function(){
     const copyCountValue = btnValue + copyCount;
     document.getElementById('copy-count').innerText = copyCountValue;
 })
+
+document.getElementById('copy-btn-2').addEventListener('click', function(){
+    const copyText = document.getElementById('copyText-2').innerText
+    navigator.clipboard.writeText(copyText)
+    const copyBtn = document.getElementById('copy-btn-02')
+    const defaultText = copyBtn.innerText
+    copyBtn.innerText = "Copied"
+    setTimeout(function(){
+        copyBtn.innerText = defaultText
+    }, 1000)
+    const btnValue = 1;
+    const copyCount = parseInt(document.getElementById('copy-count').innerText)
+    console.log(copyCount)
+    const copyCountValue = btnValue + copyCount;
+    document.getElementById('copy-count').innerText = copyCountValue;
+})
+document.getElementById('copy-btn-3').addEventListener('click', function(){
+    const copyText = document.getElementById('copyText-3').innerText
+    navigator.clipboard.writeText(copyText)
+    const copyBtn = document.getElementById('copy-btn-03')
+    const defaultText = copyBtn.innerText
+    copyBtn.innerText = "Copied"
+    setTimeout(function(){
+        copyBtn.innerText = defaultText
+    }, 1000)
+    const btnValue = 1;
+    const copyCount = parseInt(document.getElementById('copy-count').innerText)
+    console.log(copyCount)
+    const copyCountValue = btnValue + copyCount;
+    document.getElementById('copy-count').innerText = copyCountValue;
+})
+document.getElementById('copy-btn-4').addEventListener('click', function(){
+    const copyText = document.getElementById('copyText-4').innerText
+    navigator.clipboard.writeText(copyText)
+    const copyBtn = document.getElementById('copy-btn-04')
+    const defaultText = copyBtn.innerText
+    copyBtn.innerText = "Copied"
+    setTimeout(function(){
+        copyBtn.innerText = defaultText
+    }, 1000)
+    const btnValue = 1;
+    const copyCount = parseInt(document.getElementById('copy-count').innerText)
+    console.log(copyCount)
+    const copyCountValue = btnValue + copyCount;
+    document.getElementById('copy-count').innerText = copyCountValue;
+})
+document.getElementById('copy-btn-5').addEventListener('click', function(){
+    const copyText = document.getElementById('copyText-5').innerText
+    navigator.clipboard.writeText(copyText)
+    const copyBtn = document.getElementById('copy-btn-05')
+    const defaultText = copyBtn.innerText
+    copyBtn.innerText = "Copied"
+    setTimeout(function(){
+        copyBtn.innerText = defaultText
+    }, 1000)
+    const btnValue = 1;
+    const copyCount = parseInt(document.getElementById('copy-count').innerText)
+    console.log(copyCount)
+    const copyCountValue = btnValue + copyCount;
+    document.getElementById('copy-count').innerText = copyCountValue;
+})
+document.getElementById('copy-btn-6').addEventListener('click', function(){
+    const copyText = document.getElementById('copyText-6').innerText
+    navigator.clipboard.writeText(copyText)
+    const copyBtn = document.getElementById('copy-btn-06')
+    const defaultText = copyBtn.innerText
+    copyBtn.innerText = "Copied"
+    setTimeout(function(){
+        copyBtn.innerText = defaultText
+    }, 1000)
+    const btnValue = 1;
+    const copyCount = parseInt(document.getElementById('copy-count').innerText)
+    console.log(copyCount)
+    const copyCountValue = btnValue + copyCount;
+    document.getElementById('copy-count').innerText = copyCountValue;
+})
+document.getElementById('copy-btn-7').addEventListener('click', function(){
+    const copyText = document.getElementById('copyText-7').innerText
+    navigator.clipboard.writeText(copyText)
+    const copyBtn = document.getElementById('copy-btn-07')
+    const defaultText = copyBtn.innerText
+    copyBtn.innerText = "Copied"
+    setTimeout(function(){
+        copyBtn.innerText = defaultText
+    }, 1000)
+    const btnValue = 1;
+    const copyCount = parseInt(document.getElementById('copy-count').innerText)
+    console.log(copyCount)
+    const copyCountValue = btnValue + copyCount;
+    document.getElementById('copy-count').innerText = copyCountValue;
+})
+document.getElementById('copy-btn-8').addEventListener('click', function(){
+    const copyText = document.getElementById('copyText-8').innerText
+    navigator.clipboard.writeText(copyText)
+    const copyBtn = document.getElementById('copy-btn-08')
+    const defaultText = copyBtn.innerText
+    copyBtn.innerText = "Copied"
+    setTimeout(function(){
+        copyBtn.innerText = defaultText
+    }, 1000)
+
+    const btnValue = 1;
+    const copyCount = parseInt(document.getElementById('copy-count').innerText)
+    console.log(copyCount)
+    const copyCountValue = btnValue + copyCount;
+    document.getElementById('copy-count').innerText = copyCountValue;
+})
+document.getElementById('copy-btn-9').addEventListener('click', function(){
+    const copyText = document.getElementById('copyText-9').innerText
+    navigator.clipboard.writeText(copyText)
+    const copyBtn = document.getElementById('copy-btn-09')
+    const defaultText = copyBtn.innerText
+    copyBtn.innerText = "Copied"
+    setTimeout(function(){
+        copyBtn.innerText = defaultText
+    }, 1000)
+    const btnValue = 1;
+    const copyCount = parseInt(document.getElementById('copy-count').innerText)
+    console.log(copyCount)
+    const copyCountValue = btnValue + copyCount;
+    document.getElementById('copy-count').innerText = copyCountValue;
+})
